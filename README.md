@@ -16,3 +16,5 @@ From Kaggle
 The house price prediction project will predict price of house based on different aspects.
 
 ## Streamlit View
+
+![Screenshot 2024-11-05 170958](https://github.com/user-attachments/assets/311e4a08-9999-48b7-8d16-9068a83e98a1)
