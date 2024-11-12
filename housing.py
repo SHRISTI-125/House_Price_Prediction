@@ -34,6 +34,7 @@ print("\n\n")
 
 # Plotting the data
 fig, ax = plt.subplots()
+plt.style.use(['dark_background'])
 plt.suptitle('House Price Prediction showing Best Fit line', color='w')
 lr.fit(A_train, B_train)
 ax.scatter(df['area'],df['price'],color='blue', label='Price')
@@ -41,7 +42,6 @@ ax.plot(A_test,lr.predict(A_test),color='yellow', label='Best fit line (using ar
 ax.set_xlabel('Area')
 ax.set_ylabel('Price')
 ax.legend()
-plt.style.use(['dark_background'])
 # Display 
 st.pyplot(fig)
 
