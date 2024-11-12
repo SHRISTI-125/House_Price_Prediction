@@ -3,7 +3,7 @@ This is the project that predicts the house prices based on multiple features us
 
 ## Modules Used
 <ol>
-  <li>Pandas : For raeding CSV file</li>
+  <li>Pandas : For reading CSV file</li>
   <li>scikit-learn : For spliting data, training and predicting</li>
   <li>Matplotlib : For plotting graph</li>
   <li>Seaborn : For making difference in output.</li>
